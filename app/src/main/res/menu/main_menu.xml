@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home" android:title="Home"
+            android:icon="@drawable/ic_home_"/>
+        <item android:id="@+id/nav_addTask" android:title="Add Task"
+            android:icon="@drawable/ic_add_task"/>
+        <item android:id="@+id/nav_todo" android:title="To do"
+            android:icon="@drawable/ic_todo"/>
+        <item android:id="@+id/nav_inprogress" android:title="In Progress"
+            android:icon="@drawable/ic_in_progress"/>
+        <item android:id="@+id/nav_done" android:title="Done"
+            android:icon="@drawable/ic_done"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Logout">
+            <menu>
+                <group>
+                    <item android:title="Logout"
+                        android:icon="@drawable/ic_logout" android:id="@+id/logout"/>
+                </group>
+            </menu>
+        </item>
+
+
+    </group>
+</menu>
